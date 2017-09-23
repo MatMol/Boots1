@@ -1,0 +1,48 @@
+footer {
+  background: #222222;
+  color: white; }
+  footer .foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap; }
+    footer .foot article {
+      flex: 1;
+      margin: 0 10px 10px 10px; }
+    footer .foot p {
+      font-family: "Open-sans", sans-serif;
+      font-size: 17px; }
+    footer .foot a {
+      text-decoration: none;
+      color: #18bc9c;
+      font-family: "Open-sans", sans-serif;
+      font-size: 17px; }
+  footer .copy {
+    display: flex;
+    justify-content: center; }
+  footer .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    footer .social a {
+      font-size: 30px;
+      color: white;
+      text-decoration: none; }
+    footer .social span {
+      border: 2px solid white;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 5px; }
+      footer .social span:hover {
+        background: white;
+        color: #18bc9c; }
+
+
+footer .foot ul{
+  list-style-type: none;
+}
